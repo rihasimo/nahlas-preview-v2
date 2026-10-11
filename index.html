@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="cs">
+<head>
+	<meta name="robots" content="noindex, nofollow">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Stránky brněnského amatérského pěveckého sboru Na hlas"> 
+	<meta name="keywords" content="Pěvecký sbor, Smíšený sbor, Na hlas, Na hłas, Brno, Choir, Mixed choir">
+	<title>Hłuboce łidský amatérský sbor Na hłas</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+	<link rel="icon" type="image/png" sizes="128x128" href="favicon-128.png">
+	<link rel="icon" type="image/png" sizes="180x180" href="favicon-180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
+	<link rel="shortcut icon" sizes="48x48" href="favicon-48.png">
+	
+<!--	<link rel="preconnect" href="https://fonts.googleapis.com">-->
+<!--	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+<!--	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">-->
+	<link rel="preload" href="fonts/roboto-v30-latin-ext-300.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" href="fonts/roboto-v30-latin-ext-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" href="fonts/roboto-v30-latin-ext-500.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" href="fonts/roboto-v30-latin-ext-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" href="fonts/roboto-v30-latin-ext-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link href="nahlas.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header> 
+		<img src="media/logo-na-hlas.svg"  class="logo" alt="na hłas">
+        <div onmouseover="show()" onmouseout="hide()" class="dropdown" style="float:right;">
+            <button onClick="show()" id="mainMenuBtn" class="dropbtn">
+				<span class="hamburger"></span>
+				<span class="hamburger"></span>
+				<span class="hamburger"></span>
+            </button>
+            <div onClick="hide()" id="mainMenu" class="dropdown-content"> 
+				<a href="#">O sboru</a>
+				<a href="#sbormistr">Sbormistr</a> 
+				<a href="#repertoar">Repertoár</a> 
+				<a href="#odkazy">Odkazy</a> 
+				<a href="#kontakt">Kontakt</a> 
+			</div>
+        </div>
+	</header>
+	
+	<div class="content">
+		<section class="cast1 poz-fialove" id="o-sboru">
+			<div class="main-column responsive">
+				<div class="foto-cont" id="A1">
+				    <div class="foto-wrapper sbor"><img src="media/fotka-uvod.jpg" class="foto" alt="Úvodní fotka sboru"></div>
+				</div>
+				<div class="info-text" id="A2"><p>Jsme amatérský smíšený pěvecký sbor. Zpíváme díla českých autorů z&nbsp;přelomu 19.&nbsp;a&nbsp;20.&nbsp;století. Z&nbsp;poslechu sboru na&nbsp;vás dýchne úcta k&nbsp;mistrům české klasiky i&nbsp;přátelská nálada, která je odrazem atmosféry uvnitř sboru. Rádi naším zpěvem rozezníváme kostely, návsi i&nbsp;kulturou doposud nedotčené prostory. Jsme z&nbsp;Brna a&nbsp;fungujeme od&nbsp;roku&nbsp;2019.</p>
+				</div>
+			</div>			
+		</section>
+		
+		<section class="cast2 poz-bezove" id="sbormistr">
+	  		<div class="main-column responsive">
+	  		  <div class="foto-cont" id="B1">
+	  		      <div class="foto-wrapper jachym"><img src="media/fotka-sbormistr.jpg" class="foto" alt="Fotka dirigujícího Jáchyma Hájka"></div>
+	  		  </div>
+	  		  <div class="info-text" id="B2"><p><strong>Jáchym Hájek</strong> je spoluzakládajícím členem a&nbsp;sbormistrem brněnského pěveckého sboru Na&nbsp;hłas. Jeho činnost je specifická v&nbsp;houževnaté, důkladné a&nbsp;laskavé práci s&nbsp;amatérskými pěvci, při které staví na roveň kvalitním pěveckým výkonům i&nbsp;přátelskou atmosféru v&nbsp;kolektivu. Dále působí jako trumpetista skupiny Poletíme? a&nbsp;jako zpěvák skupiny Tingltangl.</p>
+	  		  </div>
+	  		</div>
+		</section>
+		
+		<hr>
+		
+        <section class="cast3.0 poz-bezove" id="repertoar">
+            <div class="main-column">
+                <div class="info-text" id="C1">
+				<h2>Náš repertoár</h2>                    
+                    <ul><li><h3>Cykly písní</h3></li>
+                        <li>Leoš Janáček – Ohlas národních písní</li>
+                        <li>Leoš Janáček – Ukvałské písně</li>
+                        <li>Leoš Janáček – Tři smíšené sbory</li>
+                        <li>Antonín Dvořák – V&nbsp;přírodě</li>
+                        <li>Antonín Dvořák – Čtyři sbory</li>
+                        <li>J. B. Foerster – Oblačný pták</li>
+						<li>Zdeněk Lukáš – Čtyři lidové písně z&nbsp;Čech a&nbsp;Moravy</li>
+                    </ul> 
+				</div>
+			</div>
+		</section>
+		<section class="cast3.1 poz-fialove" id="advent">
+			<div class="main-column">
+				<div class="info-text" id="C0">
+				<h2>Nabídka adventního koncertu</h2>	
+				<p>Přineseme sváteční atmosféru na&nbsp;Vaše sousedské setkání u&nbsp;rozsvěcování stromku, koncert v&nbsp;místním kostele nebo adventní program v&nbsp;kulturním domě.</p>
+				<ul>
+					<li>Kompletní adventní pásmo (cca 60&nbsp;minut) plné čisté vícehlasé harmonie bez&nbsp;nutnosti složitého zvučení.</li>
+					<li>Pestrou skladbu repertoáru, která pohladí po duši a&nbsp;přinese pravý duch Adventu.</li>
+					<li>Vřelý a&nbsp;lidský přístup, který přirozeně propojí posluchače všech generací.</li>
+				</ul>
+				</div>
+			</div>
+		</section>
+		<section class="cast3.2 poz-bezove" id="repertoar-advent">
+			<div class="main-column">
+				<div class="info-text" id="C1">
+                    <ul><li><h3>Náš adventní repertoár:</h3></li>
+                        <li>Aj, růže rozvila se</li>
+                        <li>Čas radosti veselosti</li>
+                        <li>Chtíc, aby spal</li>
+						<li>Čas radosti veselosti</li>
+                        <li>Jdu klanět se ti k&nbsp;jeslím sám</li>
+                        <li>Kristus Pán se narodil</li>
+						<li>Narodil se Kristus Pán</li>
+						<li>Noc ke&nbsp;konci se kloní</li>
+                        <li>Ó, ty radostný čase vánoční</li>
+						<li>Raduj se, všecko stvoření</li>
+                        <li>Vánoční rosička</li>
+						<li>Vánoční roztomilost</li>
+                        <li>Zavítej k&nbsp;nám, Stvořiteli</li>
+						<li>Zvěstujem vám radost převelmi velikou</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+		
+		<hr class="bezove">
+		
+		<section class="cast4 poz-bezove" id="odkazy">
+        <div class="grid-container">
+            <div class="grid-item1">
+				<div class="odkaz"> 
+						<a href="https://www.facebook.com/sbornahlas" target="_blank" rel="noopener noreferrer" title="Facebook"> 
+							<img src="media/logo-fb.svg" class="ikona" alt="Facebook">
+<!--							<br>-->
+<!--                        	Facebook-->
+						</a>
+				</div>
+			</div>
+            <div class="grid-item2">
+				<div class="odkaz"> 
+						<a href="https://www.youtube.com/@sbornahlas" target="_blank" rel="noopener noreferrer"  title="YouTube"> 
+							<img src="media/logo-yt.svg" class="ikona" alt="YouTube">
+<!--							<br>-->
+<!--							YouTube-->
+						</a>
+				</div>
+			</div>
+            <div class="grid-item3">
+				<div class="odkaz"> 
+						<a href="https://www.instagram.com/sbor_nahlas/" target="_blank" rel="noopener noreferrer"  title="Instagram"> 
+							<img src="media/logo-ig.svg" class="ikona" alt="Instagram">
+<!--							<br>-->
+<!--							Instagram-->
+						</a>
+				</div>
+			</div>
+			<div class="grid-item4">
+				<div class="odkaz"> 
+						<a href="mailto:chvalkova.veronika@gmail.com" title="Poslat e-mail"> 
+							<img src="media/verca.jpg" class="profilovka" alt="Profilovka Verča">
+<!--							<br>-->
+<!--							Poslat e-mail ✉-->
+						</a>
+				</div>
+			</div>
+            <div class="grid-item5">
+				<div class="odkaz-popis">
+					Aktuality &amp; koncerty</div>
+			</div>
+            <div class="grid-item6">
+				<div class="odkaz-popis">
+					Ukázky repertoáru
+				</div>
+			</div>
+            <div class="grid-item7">
+				<div class="odkaz-popis">
+					Instagram
+				</div>
+			</div>
+			<div class="grid-item8">
+				<div class="odkaz-popis">
+					Chcete, abychom zpívali na vaší akci? Napište Veronice Chválkové na <a href="mailto:chvalkova.veronika@gmail.com" title="Poslat e-mail"> <span class="mail mail-ico">chvalkova.veronika</span><span class="mail">@gmail.com</span> </a>
+				</div>
+			</div>
+        </div>
+		</section>
+		
+		<section class="cast5 poz-fialove" id="kontakt">
+			<div class="main-column responsive">
+				<div class="info-text" id="E1">
+                    <p>Pěvecký sbor Na hlas z. s.<br>
+                        IČO 19957939<br>
+                        Kamínky 287/15<br>
+                        634 00 Brno</p>
+                    <p>Předsedkyně spolku: Iva Klúčovská<br>
+                        <a href="mailto:i.klucovska@seznam.cz" title="Poslat e-mail" class="mail-ico">i.klucovska@seznam.cz</a></p>
+                </div>
+				
+				<hr>
+				
+				<div class="info-text" id="E2">
+                    <p><a href="downloads/nahlas_Logo.zip" class="download" title="Stáhnout logo (.zip)">Logo ke stažení</a></p>
+                    <p>Bankovní spojení spolku:<br>
+                    2802758699/2010</p>
+                    <p>Budeme rádi za podporu formou finančního daru!</p>
+                </div>
+                <div class="font-preload-700"> </div>
+                <div class="font-preload-900"> </div>
+</div>
+		</section>
+
+		
+</div>
+	
+<script>
+	
+	function hide() {
+		document.getElementById("mainMenu").style.visibility = "hidden";
+		document.getElementById("mainMenuBtn").style.backgroundColor = "#E9C2B8";
+	}
+	
+	
+	function show() {
+		document.getElementById("mainMenu").style.visibility = "visible";
+		document.getElementById("mainMenuBtn").style.backgroundColor = "white";
+	}
+	
+</script>
+	
+</body>
+</html>
